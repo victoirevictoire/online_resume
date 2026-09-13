@@ -113,14 +113,12 @@ body {
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
-    display: block;
 }
 
 .frise {
     width: 40%;
     border-left: 3px solid #edead9;
     padding-left: 20px;
-    display: block;
 }
 
 .frise-droite {
@@ -129,12 +127,10 @@ body {
     padding-left: 0;
     padding-right: 20px;
     text-align: right;
-    display: block;
 }
 
 .frise-gauche {
     text-align: left;
-    display: block;
 }
 
 .etape {
