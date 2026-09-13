@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    font-style: normal;
+    background: #90b5cb;
+    color: #333;
+}
+
+
+.lang-switch {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 1.1rem;
+    z-index: 1000;
+    background: #edead9;
+    padding: 5px 10px;
+}
+
+.lang-switch a {
+    color: #202238;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.lang-switch a:hover {
+    text-decoration: underline;
+}
+
+
+
+.header-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin:0;
+}
+
+
+.espace {
+    height: 50px;
+}
+
+.banniere {
+    background: #a93e3e;
+    color: #edead9;
+    padding: 15px 75px;
+    text-align: center;
+}
+
+
+.formation-image {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-top : 10vh;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.permis-image {
+    width: 15%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.titre-formation {
+    font-size: 3rem;
+    text-align: left;
+    background: #edead9;
+    color: #90b5cb;
+    padding-left: 10rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    line-height: 0.1; /* ← clé pour réduire la hauteur */
+}
+
+.titre-canva {
+    text-align: left;
+    background: #202238;
+    color: #edead9;
+    padding-left: 10rem;
+     padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 0.1;;
+}
+
+/* Section parcours */
+.parcours {
+    text-align: center;
+}
+
+.frises-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.frise {
+    width: 40%;
+    border-left: 3px solid #edead9;
+    padding-left: 20px;
+}
+
+.frise-droite {
+    border-left: none;
+    border-right: 3px solid #edead9;
+    padding-left: 0;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.frise-gauche {
+    text-align: left;
+}
+
+.etape {
+    margin-bottom: 40px;
+}
+
+.titre-frise h3 {
+    margin: 5%;
+    font-size: 3rem;
+    color: #edead9;
+}
+
+.etape h3 {
+    margin: 0;
+    font-size: 1.7rem;
+    color: #a93e3e;
+}
+
+.etape p {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #202238;
+}
+
+.blocs-canva {
+    background-color: #edead9;
+    padding-bottom: 10%;
+}
+
+/* Travaux */
+.travaux {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.travaux h2 {
+    font-style: normal;
+    text-align: right;
+    background: #edead9;
+    color: #90b5cb;
+    padding-right: 10rem;
+    margin-bottom: 0;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 250px;          /* largeur fixe */
+    height: 170px;         /* hauteur fixe */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #edead9;
+    color: #202238;
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.15); */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    background: #edead9;
+    color: #202238;
+    pointer-events: none; /* permet de cliquer sur la carte */
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.titre-contact h4 {
+    font-size: 2.3rem;
+    text-align: right;
+    background: #a93e3e;
+    color: #edead9;
+    padding-right: 10rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-bottom:0;
+    margin-top: 2rem;
+    line-height: 0.1; /* ← clé pour réduire la hauteur */
+}
+
+.text-contact {
+    font-size: 1.8rem;
+    text-align: right;
+    background: #edead9;
+    color: #333;
+    padding-right: 9rem;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    margin-top:0;
+}
+
+.footer {
+    font-size: 1.3rem;
+    text-align: center;
+    background: #90b5cb;
+    color: #a93e3e;
+    padding-left: 9rem;
+    margin-top:10rem;
+    margin-bottom:5rem
+}
